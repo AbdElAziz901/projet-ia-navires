@@ -34,8 +34,8 @@ scripts/
 ## Comment utiliser le projet
 
 - Télécharge le projet puis unzip le dossier et Ouvre le dossier dans VS Code
-- Chaque dossier ##Besoin_Client_X contient un ##code.ipynb réalisant le besoin spécifique.  
-- `models/` contient les modèles sauvegardés.  
-- `scripts/` contient les scripts exécutables en ligne de commande.
+- Chaque dossier Besoin_Client_X contient un code.ipynb réalisant le besoin spécifique.  
+- models/ contient les modèles sauvegardés.  
+- scripts/ contient les scripts exécutables en ligne de commande.
 - je vous conseille de lire le document "sujet.pdf" pour bien comprendre les besions 
 
