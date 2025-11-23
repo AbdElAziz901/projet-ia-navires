@@ -22,9 +22,13 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 ## Structure du projet
 
 Besoin_Client_1/
+
 Besoin_Client_2/
+
 Besoin_Client_3/
+
 models/
+
 scripts/
 
 ## Comment utiliser le projet
