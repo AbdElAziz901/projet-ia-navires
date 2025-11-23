@@ -1,30 +1,37 @@
-# projet-ia-navires
-Projet d'analyse et modélisation des comportements de navigation des navires (AIS) – clustering, classification et trajectoire.
+# Projet IA Navires
 
+Analyse et modélisation des comportements de navigation des navires à partir de données AIS.  
+Le projet permet de regrouper, classifier et prédire les trajectoires des navires grâce au Machine Learning.
 
-Ce projet a été réalisé dans le cadre du module Intelligence Artificielle / Big Data / Développement Web.
-L’objectif est de développer une suite d’outils permettant d’analyser, modéliser et prédire les comportements de navires à partir de données AIS.
+## Objectifs
 
-- Objectifs du projet
+- **Clustering** : Regrouper automatiquement les navires selon leurs comportements de navigation.  
+- **Classification** : Prédire le type d’un navire (supervisé).  
+- **Régression** : Prédire la trajectoire future d’un navire.  
+- Fournir trois scripts exécutables pour chaque besoin client.
 
-Regrouper automatiquement les navires selon leurs comportements de navigation (clustering)
+## Compétences mobilisées
 
-Prédire le type d’un navire (classification supervisée)
+- Machine Learning : clustering, classification, régression.  
+- Traitement de données et pipeline IA.  
+- Évaluation de modèles : Silhouette, Calinski-Harabasz, F1-score, etc.  
+- Manipulation de données : pandas, NumPy.  
+- Visualisation : Plotly, Mapbox.  
+- Packaging de projets IA : scripts et modèles persistés.
 
-Prédire la trajectoire future d’un navire (régression temporelle)
+## Structure du projet
 
-Fournir 3 scripts exécutables en ligne de commande pour chaque besoin client
+Besoin_Client_1/
+Besoin_Client_2/
+Besoin_Client_3/
+models/
+scripts/
 
-- Compétences mobilisées
+## Comment utiliser le projet
 
-Machine Learning (clustering, classification, régression)
+- Télécharge le projet puis unzip le dossier et Ouvre le dossier dans VS Code
+- Chaque dossier `Besoin_Client_X` contient un `code.ipynb` réalisant le besoin spécifique.  
+- `models/` contient les modèles sauvegardés.  
+- `scripts/` contient les scripts exécutables en ligne de commande.
+- je vous conseille de lire le document "sujet.pdf" pour bien comprendre les besions 
 
-Traitement de données & pipeline IA
-
-Évaluation de modèles (Silhouette, Calinski-Harabasz, F1-score…)
-
-Manipulation de données (pandas, NumPy)
-
-Visualisation (Plotly, Mapbox)
-
-Packaging de projets IA (scripts, modèles persistés)
