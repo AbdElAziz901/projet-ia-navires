@@ -7,7 +7,8 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 
 - **Clustering** : Regrouper automatiquement les navires selon leurs comportements de navigation.  
 - **Classification** : Prédire le type d’un navire (supervisé).  
-- **Régression** : Prédire la trajectoire future d’un navire.  
+- **Régression** : Prédire la trajectoire future d’un navire.
+- À partir du fichier nettoyé export_IA.csv (issu de la partie Big Data).
 - Fournir trois scripts exécutables pour chaque besoin client.
 
 ## Fonctionnalités Implémentées
