@@ -19,11 +19,11 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 - **Résultat** : Détection automatique des voies maritimes et profils de navigation
 
 ### Besoin Client 2 – Classification (Supervisé)
-- **Objectif** : Prédire le `VesselType` (60, 70, 80…)
+- **Objectif** : Prédire le VesselType (60, 70, 80…)
 - **Sélection de variables** : Corrélation → Cargo, Draft, Width, Length
 - **Modèle** : KNN (meilleur que Dummy Classifier)
 - **Évaluation** : Matrice de confusion, F1-score, précision/rappel
-- **Modèles sauvegardés** : `model_knn.pkl`, `scaler_knn.pkl`
+- **Modèles sauvegardés** : model_knn.pkl, scaler_knn.pkl
 
 ### Besoin Client 3 – Régression (Prédiction de trajectoire)
 - **Objectif** : Prédire la position future (LAT/LON) d’un navire
@@ -33,8 +33,8 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 
 ## Technologies Utilisées
 - Python : pandas, numpy, scikit-learn, hdbscan, seaborn, joblib
-- Jupyter Notebook (`.ipynb`)
-- Modèles persistés (`.pkl`) et scripts de prédiction interactifs
+- Jupyter Notebook (.ipynb)
+- Modèles persistés (.pkl) et scripts de prédiction interactifs
 
 ## Contenu du dépôt
 
