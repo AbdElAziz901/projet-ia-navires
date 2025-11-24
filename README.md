@@ -10,20 +10,31 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 - **Régression** : Prédire la trajectoire future d’un navire.  
 - Fournir trois scripts exécutables pour chaque besoin client.
 
-## Compétences mobilisées
+## Fonctionnalités Implémentées
 
-- Machine Learning : clustering, classification, régression.  
-- Traitement de données et pipeline IA.  
-- Évaluation de modèles : Silhouette, Calinski-Harabasz, F1-score, etc.  
-- Manipulation de données : pandas, NumPy.  
-- Visualisation : Plotly, Mapbox.  
-- Packaging de projets IA : scripts et modèles persistés.
+### Besoin Client 1 – Clustering (Non supervisé)
+- **Algorithmes** : K-Means + HDBSCAN
+- **Variables** : Direction (COG → coordonnées cartésiennes), Vitesse (SOG), Heading
+- **Évaluation** : Indice de Silhouette (jusqu’à 0.85)
+- **Résultat** : Détection automatique des voies maritimes et profils de navigation
 
-## Technologies
+### Besoin Client 2 – Classification (Supervisé)
+- **Objectif** : Prédire le `VesselType` (60, 70, 80…)
+- **Sélection de variables** : Corrélation → Cargo, Draft, Width, Length
+- **Modèle** : KNN (meilleur que Dummy Classifier)
+- **Évaluation** : Matrice de confusion, F1-score, précision/rappel
+- **Modèles sauvegardés** : `model_knn.pkl`, `scaler_knn.pkl`
 
--Python (pandas, numpy, scikit-learn, hdbscan, seaborn, matplotlib, joblib).
--Jupyter Notebooks (code_client_1.ipynb, code_client_3.ipynb, Code.ipynb).
--Modèles sauvegardés et scripts exécutables pour prédictions interactives.
+### Besoin Client 3 – Régression (Prédiction de trajectoire)
+- **Objectif** : Prédire la position future (LAT/LON) d’un navire
+- **Méthode** : Régression linéaire sur séquences de 5 points → prédire le 6e
+- **Traitement** : Groupement par MMSI + tri chronologique
+- **Résultat** : Prédiction cohérente sur des milliers de points
+
+## Technologies Utilisées
+- Python : pandas, numpy, scikit-learn, hdbscan, seaborn, joblib
+- Jupyter Notebook (`.ipynb`)
+- Modèles persistés (`.pkl`) et scripts de prédiction interactifs
 
 ## Contenu du dépôt
 
