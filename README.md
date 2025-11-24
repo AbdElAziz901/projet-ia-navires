@@ -19,16 +19,22 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 - Visualisation : Plotly, Mapbox.  
 - Packaging de projets IA : scripts et modèles persistés.
 
+## Technologies
+
+-Python (pandas, numpy, scikit-learn, hdbscan, seaborn, matplotlib, joblib).
+-Jupyter Notebooks (code_client_1.ipynb, code_client_3.ipynb, Code.ipynb).
+-Modèles sauvegardés et scripts exécutables pour prédictions interactives.
+
 ## Contenu du dépôt
 
--code_client_1.ipynb  Clustering (directions, vitesses).
--code_client_3.ipynb  Régression (trajectoires).
--Code.ipynb Classification (sélection variables, modèles KNN/Dummy).
--Visualisations PNG générées (ex. matrice de confusion).
--Modèles .pkl et fichiers de variables sélectionnées.
--export_IA.csv (Fichier de données non inclus pour cause de taille).
+- Code_client_1.ipynb  Clustering (directions, vitesses).
+- Code.ipynb Classification (sélection variables, modèles KNN/Dummy).
+- Code_client_3.ipynb  Régression (trajectoires).
+- Visualisations PNG générées (ex. matrice de confusion).
+- Modèles .pkl et fichiers de variables sélectionnées.
+- export_IA.csv (Fichier de données non inclus pour cause de taille).
 
-## Comment utiliser le projet
+## Comment exécuter
 
 - Télécharge le projet puis unzip le dossier et Ouvre le dossier dans VS Code
 - Chaque dossier Besoin_Client_X contient un code.ipynb réalisant le besoin spécifique.  
