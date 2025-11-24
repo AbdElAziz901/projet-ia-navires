@@ -21,9 +21,9 @@ Le projet permet de regrouper, classifier et prédire les trajectoires des navir
 
 ## Contenu du dépôt
 
--code_client_1.ipynb – Clustering (directions, vitesses).
--code_client_3.ipynb – Régression (trajectoires).
--Code.ipynb – Classification (sélection variables, modèles KNN/Dummy).
+-code_client_1.ipynb  Clustering (directions, vitesses).
+-code_client_3.ipynb  Régression (trajectoires).
+-Code.ipynb Classification (sélection variables, modèles KNN/Dummy).
 -Visualisations PNG générées (ex. matrice de confusion).
 -Modèles .pkl et fichiers de variables sélectionnées.
 -export_IA.csv (Fichier de données non inclus pour cause de taille).
